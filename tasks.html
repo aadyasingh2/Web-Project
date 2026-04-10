@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tasks - Aadya's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="nav">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Aadya</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navlinks">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navlinks">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="tasks.html">Tasks</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="pagetop">
+  <div class="container">
+    <h1 class="display-5 fw-bold">All 50 Tasks</h1>
+    <p class="lead mt-2">Every task from the web programming course — with live demos.</p>
+  </div>
+</div>
+
+<!-- FILTER BAR -->
+<div class="filters sticky-top">
+  <div class="container">
+    <div class="btnrow">
+      <button class="fbtn on" data-filter="all">All (50)</button>
+      <button class="fbtn" data-filter="html">HTML</button>
+      <button class="fbtn" data-filter="css">CSS</button>
+    </div>
+  </div>
+</div>
+
+<div class="container tasks">
+
+  <!-- ===== HTML ===== -->
+  <div class="sectitle" id="html">HTML Foundations — Tasks 3–17</div>
+
+  <!-- TASK 3 -->
+  <div class="tbox" data-cat="html" id="task3">
+    <div class="tboxhead">
+      <span class="tnum">Task 03</span>
+    </div>
+    <h3 class="ttitle">Basic HTML Structure — Bold, Italic, Underlined</h3>
+    <div class="demo">
+      <p><b>The internet is the largest network of computers ever created.</b> It connects billions of devices around the world. <i>HTML stands for HyperText Markup Language.</i> It is the backbone of every website you visit. <u>CSS controls the visual presentation of a webpage.</u> JavaScript adds interactivity and dynamic behavior. <b><i>Web development is a creative and technical field.</i></b> It blends design thinking with programming logic. <u><i>Responsive design ensures websites look great on all screen sizes.</i></u> <b>Every great developer starts with the fundamentals.</b></p>
+    </div>
+  </div>
+
+  <!-- TASK 5 -->
+  <div class="tbox" data-cat="html" id="task5">
+    <div class="tboxhead">
+      <span class="tnum">Task 05</span>
+    </div>
+    <h3 class="ttitle">Div Layout — Header, Nav, Main, Footer</h3>
+    <div class="demo">
+      <div class="lprev">
+        <div class="lprev-h">Header — Site Title</div>
+        <div class="lprev-n">Nav — Home | About | Gallery | Contact</div>
+        <div class="lprev-m">Main Content Area — This is where the page content lives.</div>
+        <div class="lprev-f">Footer — © 2025 Aadya</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TASK 6 -->
+  <div class="tbox" data-cat="html" id="task6">
+    <div class="tboxhead">
+      <span class="tnum">Task 06</span>
+    </div>
+    <h3 class="ttitle">Home Layout with Div, Text & Images</h3>
+    <div class="demo">
+      <div class="lprev">
+        <div class="lprev-h">🏠 Welcome to My Website</div>
+        <div style="display:flex;gap:12px;padding:12px;background:white;align-items:flex-start">
+          <div style="width:70px;height:70px;background:#e5e5e5;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:1.8rem;flex-shrink:0">🖼</div>
+          <div>
+            <h4 style="font-size:0.9rem;margin-bottom:4px">About This Site</h4>
+            <p style="font-size:0.8rem;color:#666;margin:0">This is a home layout using div tags with text and image placeholders arranged side by side.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TASK 7 -->
+  <div class="tbox" data-cat="html" id="task7">
+    <div class="tboxhead">
+      <span class="tnum">Task 07</span>
+    </div>
+    <h3 class="ttitle">Three Stacked Sections — Services, Portfolio, Testimonials</h3>
+    <div class="demo">
+      <div>
+        <div style="background:#e8f4f8;padding:12px;font-size:0.85rem;font-weight:500">Services — What we offer to clients worldwide.</div>
+        <div style="background:#f8f0e8;padding:12px;font-size:0.85rem;font-weight:500">Portfolio — A showcase of our best work.</div>
+        <div style="background:#e8f8ec;padding:12px;font-size:0.85rem;font-weight:500">Testimonials — What our clients say about us.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TASK 8 -->
+  <div class="tbox" data-cat="html" id="task8">
+    <div class="tboxhead">
+      <span class="tnum">Task 08</span>
+    </div>
+    <h3 class="ttitle">About Page — Header, Hero, Features, Footer</h3>
+    <div class="demo">
+      <div class="aprev">
+        <div class="aprev-h">Aadya — Web Developer</div>
+        <div class="aprev-top">
+          <div class="aprev-av">A</div>
+          <p>Passionate web developer with a love for clean, functional code and beautiful interfaces.</p>
+        </div>
+        <div class="aprev-row">
+          <div class="aprev-col">⭐ Experience<br/><small>2+ years coding</small></div>
+          <div class="aprev-col">💡 Skills<br/><small>HTML CSS JS</small></div>
+          <div class="aprev-col">🎯 Mission<br/><small>Build for users</small></div>
+        </div>
+        <div class="aprev-f">📧 aadya@email.com</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TASK 9 -->
+  <div class="tbox" data-cat="html" id="task9">
+    <div class="tboxhead">
+      <span class="tnum">Task 09</span>
+    </div>
+    <h3 class="ttitle">Gallery Page — 2×3 Image Grid with Hover</h3>
+    <div class="demo">
+      <div class="lprev">
+        <div class="lprev-h">Gallery</div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:12px;background:white">
+          <div style="height:50px;border:2px solid #e0e0e0;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.75rem;color:#666;cursor:pointer">Image 1</div>
+          <div style="height:50px;border:2px solid #e0e0e0;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.75rem;color:#666;cursor:pointer">Image 2</div>
+          <div style="height:50px;border:2px solid #e0e0e0;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.75rem;color:#666;cursor:pointer">Image 3</div>
+          <div style="height:50px;border:2px solid #e0e0e0;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.75rem;color:#666;cursor:pointer">Image 4</div>
+          <div style="height:50px;border:2px solid #e0e0e0;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.75rem;color:#666;cursor:pointer">Image 5</div>
+          <div style="height:50px;border:2px solid #e0e0e0;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.75rem;color:#666;cursor:pointer">Image 6</div>
+        </div>
+        <div class="lprev-f">© Gallery</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TASK 10 -->
+  <div class="tbox" data-cat="html" id="task10">
+    <div class="tboxhead">
+      <span class="tnum">Task 10</span>
+    </div>
+    <h3 class="ttitle">Contact Us Page — Info, Map, Footer</h3>
+    <div class="demo">
+      <div class="lprev">
+        <div class="lprev-h">Contact Us</div>
+        <div style="display:flex;gap:12px;padding:12px;background:white">
+          <div style="flex:1">
+            <div style="padding:6px 0;border-bottom:1px solid #f0f0f0">📍 123 Dev Street, Chennai, TN</div>
+            <div style="padding:6px 0;border-bottom:1px solid #f0f0f0">📞 +91 98765 43210</div>
+            <div style="padding:6px 0">✉️ info@aadya.dev</div>
+          </div>
+          <div style="flex:1;background:#e8f4f8;border-radius:6px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:1.8rem;min-height:80px">🗺 Map Placeholder</div>
+        </div>
+        <div class="lprev-f">© 2025</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TASK 11 -->
+  <div class="tbox" data-cat="html" id="task11">
+    <div class="tboxhead">
+      <span class="tnum">Task 11</span>
+    </div>
+    <h3 class="ttitle">Restaurant Menu — Unordered + Ordered Lists</h3>
+    <div class="demo">
+      <ul>
+        <li><b>Starters</b></li>
+        <li><b>Main Course</b>
+          <ol>
+            <li>Butter Chicken</li>
+            <li>Paneer Tikka Masala</li>
+            <li>Dal Makhani</li>
+            <li>Biryani</li>
+            <li>Chole Bhature</li>
+          </ol>
+        </li>
+        <li><b>Desserts</b></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- TASK 12 -->
+  <div class="tbox" data-cat="html" id="task12">
+    <div class="tboxhead">
+      <span class="tnum">Task 12</span>
+    </div>
+    <h3 class="ttitle">Course Outline — Ordered, Unordered & Description Lists</h3>
+    <div class="demo">
+      <ol>
+        <li><b>HTML</b>
+          <ul>
+            <li>Elements</li><li>Attributes</li><li>Lists</li><li>Tables</li>
+          </ul>
+        </li>
+        <li>CSS</li><li>Bootstrap</li><li>JavaScript</li><li>PHP</li>
+      </ol>
+      <dl class="mt-2">
+        <dt><b>Ordered List</b></dt><dd>A numbered list of items.</dd>
+        <dt><b>Unordered List</b></dt><dd>A bulleted list of items.</dd>
+        <dt><b>Description List</b></dt><dd>A list of terms with descriptions.</dd>
+      </dl>
+    </div>
+  </div>
+
+  <!-- TASK 13 -->
+  <div class="tbox" data-cat="html" id="task13">
+    <div class="tboxhead">
+      <span class="tnum">Task 13</span>
+    </div>
+    <h3 class="ttitle">Restaurant Menu Table — 5 Columns, Images, Lists</h3>
+    <div class="demo" style="overflow-x:auto">
+      <table class="mytable">
+        <thead>
+          <tr><th>Dish Name</th><th>Image</th><th>Price</th><th>Qty</th><th>Offers</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><ul style="margin:0;padding-left:1rem"><li>Appetizers</li><li>Main Course</li></ul></td>
+            <td><div class="thumb">🍛</div></td>
+            <td>₹250</td><td>50</td><td>10% off</td>
+          </tr>
+          <tr>
+            <td>Butter Chicken</td>
+            <td><div class="thumb">🍗</div></td>
+            <td>₹320</td><td>30</td><td>Free naan</td>
+          </tr>
+          <tr>
+            <td>Paneer Tikka</td>
+            <td><div class="thumb">🧀</div></td>
+            <td>₹280</td><td>40</td><td>—</td>
+          </tr>
+          <tr>
+            <td>Dal Makhani</td>
+            <td><div class="thumb">🍲</div></td>
+            <td>₹180</td><td>60</td><td>15% off</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- TASK 14 -->
+  <div class="tbox" data-cat="html" id="task14">
+    <div class="tboxhead">
+      <span class="tnum">Task 14</span>
+    </div>
+    <h3 class="ttitle">Student Leaderboard — Ranked Table with Medals</h3>
+    <div class="demo" style="overflow-x:auto">
+      <table class="mytable">
+        <thead><tr><th>Rank</th><th>Photo</th><th>Name</th><th>Score</th><th>Top Subjects</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>🥇 1st</td>
+            <td><div class="avtr">A</div></td>
+            <td>Aadya</td><td>98</td>
+            <td><ul style="margin:0;padding-left:1rem"><li>Web Dev</li><li>DBMS</li></ul></td>
+          </tr>
+          <tr>
+            <td>🥈 2nd</td>
+            <td><div class="avtr">R</div></td>
+            <td>Riya</td><td>95</td>
+            <td><ul style="margin:0;padding-left:1rem"><li>Python</li><li>DSA</li></ul></td>
+          </tr>
+          <tr>
+            <td>🥉 3rd</td>
+            <td><div class="avtr">K</div></td>
+            <td>Karan</td><td>91</td>
+            <td><ul style="margin:0;padding-left:1rem"><li>Networks</li><li>OS</li></ul></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- TASK 15 -->
+  <div class="tbox" data-cat="html" id="task15">
+    <div class="tboxhead">
+      <span class="tnum">Task 15</span>
+    </div>
+    <h3 class="ttitle">Student Profiles Table — Zebra Striping, Hover</h3>
+    <div class="demo" style="overflow-x:auto">
+      <table class="mytable zebra">
+        <thead><tr><th>Photo</th><th>Name</th><th>Roll No</th><th>Dept</th><th>Email</th></tr></thead>
+        <tbody>
+          <tr><td><div class="avtr">A</div></td><td>Aadya</td><td>21BCE001</td><td>CSE</td><td>aadya@vit.ac.in</td></tr>
+          <tr><td><div class="avtr">R</div></td><td>Riya</td><td>21BCE002</td><td>ECE</td><td>riya@vit.ac.in</td></tr>
+          <tr><td><div class="avtr">K</div></td><td>Karan</td><td>21BCE003</td><td>IT</td><td>karan@vit.ac.in</td></tr>
+          <tr><td><div class="avtr">P</div></td><td>Priya</td><td>21BCE004</td><td>CSE</td><td>priya@vit.ac.in</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- TASK 17 -->
+  <div class="tbox" data-cat="html" id="task17">
+    <div class="tboxhead">
+      <span class="tnum">Task 17</span>
+    </div>
+    <h3 class="ttitle">Dashboard — Top Nav Table + Vertical Sidebar</h3>
+    <div class="demo">
+      <div style="border:1px solid #ddd;border-radius:6px;overflow:hidden;font-size:0.82rem">
+        <table style="width:100%;background:#2d3748">
+          <tr>
+            <td style="padding:8px 12px"><a href="#" style="color:#cbd5e0;text-decoration:none;font-size:0.82rem">Home</a></td>
+            <td style="padding:8px 12px"><a href="#" style="color:#cbd5e0;text-decoration:none;font-size:0.82rem">Reports</a></td>
+            <td style="padding:8px 12px"><a href="#" style="color:#cbd5e0;text-decoration:none;font-size:0.82rem">Settings</a></td>
+            <td style="padding:8px 12px"><a href="#" style="color:#cbd5e0;text-decoration:none;font-size:0.82rem">Logout</a></td>
+          </tr>
+        </table>
+        <div style="display:flex;min-height:120px">
+          <div style="background:#1a202c;width:110px;padding:12px;flex-shrink:0">
+            <ul style="list-style:none;padding:0;margin:0">
+              <li style="color:#718096;padding:6px 0;font-size:0.8rem;cursor:pointer">Overview</li>
+              <li style="color:#718096;padding:6px 0;font-size:0.8rem;cursor:pointer">Sales</li>
+              <li style="color:#718096;padding:6px 0;font-size:0.8rem;cursor:pointer">Users</li>
+              <li style="color:#718096;padding:6px 0;font-size:0.8rem;cursor:pointer">Support</li>
+            </ul>
+          </div>
+          <div style="padding:12px;flex:1;background:white">
+            <h4 style="font-size:0.9rem;margin-bottom:6px">Dashboard Content</h4>
+            <p style="font-size:0.8rem;color:#666;margin:0">Uses a table-based top nav and list-based sidebar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== CSS ===== -->
+  <div class="sectitle" id="css">CSS & Layouts — Tasks 18–27</div>
+
+  <!-- TASK 18 -->
+  <div class="tbox" data-cat="css" id="task18">
+    <div class="tboxhead">
+      <span class="tnum">Task 18</span>
+    </div>
+    <h3 class="ttitle">Container — max-width 1200px, centered</h3>
+    <div class="demo">
+      <div style="background:#f0f0f0;padding:1rem;border-radius:8px">
+        <div style="max-width:400px;margin:0 auto;background:#fff;padding:1.5rem;border-radius:6px;border:1px solid #ddd">
+          <h4 style="margin:0 0 0.5rem">Centered Container</h4>
+          <p style="margin:0 0 0.5rem;font-size:0.9rem">This container has a max-width, is centered with margin: auto, and has padding inside.</p>
+          <p style="margin:0;font-size:0.9rem">A second paragraph demonstrating the layout constraint at work.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TASK 19 -->
+  <div class="tbox" data-cat="css" id="task19">
+    <div class="tboxhead">
+      <span class="tnum">Task 19</span>
+    </div>
+    <h3 class="ttitle">Flexbox — Three Equal Content Boxes</h3>
+    <div class="demo">
+      <div style="display:flex;gap:1rem;justify-content:center">
+        <div style="flex:1;background:#e8f4f8;padding:1rem;border-radius:8px;text-align:center">
+          <div style="font-size:2rem">🖥</div>
+          <b>Product 1</b>
+          <p style="font-size:0.8rem;margin:0.5rem 0 0">Description here</p>
+        </div>
+        <div style="flex:1;background:#f8f0e8;padding:1rem;border-radius:8px;text-align:center">
+          <div style="font-size:2rem">📱</div>
+          <b>Product 2</b>
+          <p style="font-size:0.8rem;margin:0.5rem 0 0">Description here</p>
+        </div>
+        <div style="flex:1;background:#e8f8ec;padding:1rem;border-radius:8px;text-align:center">
+          <div style="font-size:2rem">⌚</div>
+          <b>Product 3</b>
+          <p style="font-size:0.8rem;margin:0.5rem 0 0">Description here</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TASK 20 -->
+  <div class="tbox" data-cat="css" id="task20">
+    <div class="tboxhead">
+      <span class="tnum">Task 20</span
+    </div>
+    <h3 class="ttitle">Login & Registration Forms — Centered, Styled</h3>
+    <div class="demo">
+      <div style="display:flex;gap:1.5rem;flex-wrap:wrap">
+        <div style="flex:1;min-width:200px;background:#f9f9f9;padding:1.5rem;border-radius:12px;border:1px solid #eee">
+          <h5 style="margin:0 0 1rem;text-align:center">Login</h5>
+          <input type="text" placeholder="Username" style="width:100%;padding:0.5rem;margin-bottom:0.75rem;border:1px solid #ddd;border-radius:6px;box-sizing:border-box"/>
+          <input type="password" placeholder="Password" style="width:100%;padding:0.5rem;margin-bottom:0.75rem;border:1px solid #ddd;border-radius:6px;box-sizing:border-box"/>
+          <label style="font-size:0.85rem"><input type="checkbox"/> Remember me</label>
+          <button style="width:100%;margin-top:0.75rem;padding:0.5rem;background:#111;color:#fff;border:none;border-radius:6px;cursor:pointer">Login</button>
+        </div>
+        <div style="flex:1;min-width:200px;background:#f9f9f9;padding:1.5rem;border-radius:12px;border:1px solid #eee">
+          <h5 style="margin:0 0 1rem;text-align:center;background:#111;color:#fff;margin:-1.5rem -1.5rem 1rem;padding:1rem;border-radius:12px 12px 0 0">Register</h5>
+          <input type="text" placeholder="Full Name" style="width:100%;padding:0.5rem;margin-bottom:0.5rem;border:1px solid #ddd;border-radius:6px;box-sizing:border-box"/>
+          <input type="email" placeholder="Email" style="width:100%;padding:0.5rem;margin-bottom:0.5rem;border:1px solid #ddd;border-radius:6px;box-sizing:border-box"/>
+          <input type="password" placeholder="Password" style="width:100%;padding:0.5rem;margin-bottom:0.5rem;border:1px solid #ddd;border-radius:6px;box-sizing:border-box"/>
+          <label style="font-size:0.85rem">Gender: <input type="radio" name="g"/> M <input type="radio" name="g"/> F</label>
+          <button style="width:100%;margin-top:0.75rem;padding:0.5rem;background:#111;color:#fff;border:none;border-radius:6px;cursor:pointer">Register</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TASK 21 -->
+  <div class="tbox" data-cat="css" id="task21">
+    <div class="tboxhead">
+      <span class="tnum">Task 21</span>
+    </div>
+    <h3 class="ttitle">Course Details Page — External CSS, Cards, Hover Nav</h3>
+    <div class="demo">
+      <div style="background:#111;color:#fff;padding:0.75rem 1rem;border-radius:8px 8px 0 0;font-weight:600">Web Technologies — CS3001</div>
+      <div style="border:1px solid #eee;border-top:none;padding:1rem;border-radius:0 0 8px 8px">
+        <p style="margin:0 0 0.5rem;font-size:0.9rem"><b>Duration:</b> 4 months | <b>Eligibility:</b> 10+2 with Maths</p>
+        <b>Modules:</b>
+        <ul style="font-size:0.9rem;margin:0.5rem 0">
+          <li>HTML & CSS</li><li>Bootstrap</li><li>JavaScript</li><li>PHP & MySQL</li>
+        </ul>
+        <table style="width:100%;border-collapse:collapse;font-size:0.85rem;margin-top:0.5rem">
+          <tr style="background:#f5f5f5"><th style="padding:0.4rem;border:1px solid #ddd">Semester</th><th style="padding:0.4rem;border:1px solid #ddd">Fee</th></tr>
+          <tr><td style="padding:0.4rem;border:1px solid #ddd">Sem 1</td><td style="padding:0.4rem;border:1px solid #ddd">₹25,000</td></tr>
+          <tr><td style="padding:0.4rem;border:1px solid #ddd">Sem 2</td><td style="padding:0.4rem;border:1px solid #ddd">₹25,000</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- TASK 26 -->
+  <div class="tbox" data-cat="css" id="task26">
+    <div class="tboxhead">
+      <span class="tnum">Task 26</span>
+    </div>
+    <h3 class="ttitle">Registration Form — Two-Column Layout, Custom Checkboxes</h3>
+    <div class="demo">
+      <div style="max-width:420px;margin:0 auto">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.5rem">
+          <input type="text" placeholder="First Name" class="inp" style="margin-bottom:0"/>
+          <input type="text" placeholder="Last Name" class="inp" style="margin-bottom:0"/>
+        </div>
+        <input type="email" placeholder="Email" class="inp"/>
+        <input type="tel" placeholder="Phone Number" class="inp"/>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.5rem">
+          <input type="password" placeholder="Password" class="inp" style="margin-bottom:0"/>
+          <input type="password" placeholder="Confirm" class="inp" style="margin-bottom:0"/>
+        </div>
+        <div style="margin-top:0.75rem;font-size:0.85rem">
+          Gender:
+          <label style="margin:0 1rem"><input type="radio" name="gender"/> Male</label>
+          <label><input type="radio" name="gender"/> Female</label>
+        </div>
+        <input type="date" class="inp" style="margin-top:0.75rem"/>
+        <label style="font-size:0.85rem"><input type="checkbox"/> I agree to Terms & Conditions</label>
+        <button class="dbtn" style="width:100%;margin-top:0.75rem">Register</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TASK 27 -->
+  <div class="tbox" data-cat="css" id="task27">
+    <div class="tboxhead">
+      <span class="tnum">Task 27</span>
+    </div>
+    <h3 class="ttitle">Contact Form — Dropdown, File Upload, Labels</h3>
+    <div class="demo">
+      <div style="max-width:360px;margin:0 auto">
+        <label class="lbl">Full Name</label>
+        <input type="text" placeholder="Enter full name" class="inp"/>
+        <label class="lbl">Email Address</label>
+        <input type="email" placeholder="Enter email" class="inp"/>
+        <label class="lbl">Phone Number</label>
+        <input type="tel" placeholder="+91 XXXXX XXXXX" class="inp"/>
+        <label class="lbl">Subject</label>
+        <select class="inp">
+          <option>General Inquiry</option>
+          <option>Technical Support</option>
+          <option>Feedback</option>
+          <option>Other</option>
+        </select>
+        <label class="lbl">Message</label>
+        <textarea class="inp" rows="3" placeholder="Your message..."></textarea>
+        <label class="lbl">Attachment</label>
+        <input type="file" class="inp"/>
+        <button class="dbtn" style="width:100%">Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== JAVASCRIPT ===== -->
+  <div class="sectitle" id="js">JavaScript — Tasks 28–41</div>
+
+  <!-- TASK 28 -->
+  <div class="tbox" data-cat="js" id="task28">
+    <div class="tboxhead">
+      <span class="tnum">Task 28</span>
+    </div>
+    <h3 class="ttitle">innerHTML — Change Paragraph Text on Button Click</h3>
+    <div class="demo">
+      <p id="mypara" style="background:#f5f5f5;padding:0.75rem;border-radius:6px">This is the original paragraph text.</p>
+      <button class="dbtn" onclick="document.getElementById('mypara').innerHTML='Welcome to JavaScript!'">Click to Change</button>
+    </div>
+  </div>
+
+  <!-- TASK 29 -->
+  <div class="tbox" data-cat="js" id="task29">
+    <div class="tboxhead">
+      <span class="tnum">Task 29</span>
+    </div>
+    <h3 class="ttitle">Greet User — Input + innerHTML</h3>
+    <div class="demo">
+      <input type="text" id="uname" placeholder="Enter your name" class="inp"/>
+      <button class="dbtn" onclick="
+        var n=document.getElementById('uname').value;
+        document.getElementById('greetmsg').innerHTML=n?'Hello '+n+', Welcome!':'Please enter your name.';
+      ">Submit</button>
+      <div id="greetmsg" style="margin-top:0.75rem;font-weight:600;min-height:24px"></div>
+    </div>
+  </div>
+
+  <!-- TASK 30 -->
+  <div class="tbox" data-cat="js" id="task30">
+    <div class="tboxhead">
+      <span class="tnum">Task 30</span>
+    </div>
+    <h3 class="ttitle">calculateTotal Function — Price × Quantity</h3>
+    <div class="demo">
+      <div style="display:flex;gap:0.75rem;flex-wrap:wrap;align-items:flex-end">
+        <div>
+          <label class="lbl">Price (₹)</label>
+          <input type="number" id="price" value="250" class="inp" style="width:120px"/>
+        </div>
+        <div>
+          <label class="lbl">Quantity</label>
+          <input type="number" id="qty" value="3" class="inp" style="width:100px"/>
+        </div>
+        <button class="dbtn" onclick="
+          var p=parseFloat(document.getElementById('price').value)||0;
+          var q=parseInt(document.getElementById('qty').value)||0;
+          document.getElementById('total').innerHTML='Total: ₹'+(p*q).toFixed(2);
+        ">Calculate</button>
+      </div>
+      <div id="total" style="margin-top:0.75rem;font-weight:700;font-size:1.1rem;min-height:24px"></div>
+    </div>
+  </div>
+
+  <!-- TASK 31 -->
+  <div class="tbox" data-cat="js" id="task31">
+    <div class="tboxhead">
+      <span class="tnum">Task 31</span>
+    </div>
+    <h3 class="ttitle">Show Message — Button Click → innerHTML</h3>
+    <div class="demo">
+      <div id="msgbox" style="min-height:44px;background:#f5f5f5;padding:0.75rem;border-radius:6px;margin-bottom:0.75rem">Message appears here...</div>
+      <button class="dbtn" onclick="document.getElementById('msgbox').innerHTML='Welcome to JavaScript!'">Show Message</button>
+    </div>
+  </div>
+
+  <!-- TASK 32 -->
+  <div class="tbox" data-cat="js" id="task32">
+    <div class="tboxhead">
+      <span class="tnum">Task 32</span>
+    </div>
+    <h3 class="ttitle">Status Toggle — Offline → Online (Color Change)</h3>
+    <div class="demo">
+      <p id="status" style="font-weight:600;color:#999;margin-bottom:0.75rem">Status: Offline</p>
+      <button class="dbtn" onclick="
+        var el=document.getElementById('status');
+        el.innerHTML='Status: Online';el.style.color='green';
+        this.textContent='Go Offline';
+        this.onclick=function(){el.innerHTML='Status: Offline';el.style.color='#999';this.textContent='Go Online';this.onclick=arguments.callee;};
+      ">Go Online</button>
+    </div>
+  </div>
+
+  <!-- TASK 33 -->
+  <div class="tbox" data-cat="js" id="task33">
+    <div class="tboxhead">
+      <span class="tnum">Task 33</span>
+    </div>
+    <h3 class="ttitle">University Registration — Full JS Validation</h3>
+    <div class="demo">
+      <div style="max-width:340px">
+        <input type="text" id="rname" placeholder="Full Name" class="inp"/>
+        <input type="email" id="remail" placeholder="Email" class="inp"/>
+        <input type="password" id="rpw" placeholder="Password (min 8 chars)" class="inp"/>
+        <input type="password" id="rcpw" placeholder="Confirm Password" class="inp"/>
+        <input type="number" id="rage" placeholder="Age (18+)" class="inp"/>
+        <div id="rerr" style="color:red;font-size:0.8rem;min-height:20px"></div>
+        <button class="dbtn" onclick="
+          var n=document.getElementById('rname').value,
+              e=document.getElementById('remail').value,
+              p=document.getElementById('rpw').value,
+              cp=document.getElementById('rcpw').value,
+              a=document.getElementById('rage').value,
+              err=document.getElementById('rerr');
+          if(!n){err.textContent='Name is required.';return;}
+          if(!e||!e.includes('@')){err.textContent='Valid email required.';return;}
+          if(p.length<8){err.textContent='Password must be 8+ characters.';return;}
+          if(p!==cp){err.textContent='Passwords do not match.';return;}
+          if(!a||parseInt(a)<18){err.textContent='Age must be 18 or above.';return;}
+          err.style.color='green';err.textContent='✓ Form submitted successfully!';
+        ">Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TASK 37 -->
+  <div class="tbox" data-cat="js" id="task37">
+    <div class="tboxhead">
+      <span class="tnum">Task 37</span>
+    </div>
+    <h3 class="ttitle">Hotel Booking — Room Type, Services, T&C Validation</h3>
+    <div class="demo">
+      <div style="max-width:340px">
+        <input type="text" id="hguest" placeholder="Guest Name" class="inp"/>
+        <input type="tel" id="hphone" placeholder="Contact Number" class="inp"/>
+        <div style="margin-bottom:0.75rem;font-size:0.85rem">
+          Room Type:
+          <label style="display:block"><input type="radio" name="room" value="std"/> Standard</label>
+          <label style="display:block"><input type="radio" name="room" value="dlx"/> Deluxe</label>
+          <label style="display:block"><input type="radio" name="room" value="ste"/> Suite</label>
+        </div>
+        <div style="margin-bottom:0.75rem;font-size:0.85rem">
+          Additional Services:
+          <label style="display:block"><input type="checkbox" class="hsvc"/> Breakfast</label>
+          <label style="display:block"><input type="checkbox" class="hsvc"/> Airport Pickup</label>
+          <label style="display:block"><input type="checkbox" class="hsvc"/> Wi-Fi</label>
+        </div>
+        <label style="font-size:0.85rem"><input type="checkbox" id="hterms"/> Accept Terms & Conditions</label>
+        <div id="herr" style="color:red;font-size:0.8rem;min-height:20px;margin-top:0.5rem"></div>
+        <button class="dbtn" style="margin-top:0.5rem" onclick="
+          var g=document.getElementById('hguest').value,
+              ph=document.getElementById('hphone').value,
+              rm=document.querySelector('input[name=room]:checked'),
+              svcs=document.querySelectorAll('.hsvc:checked'),
+              terms=document.getElementById('hterms'),
+              err=document.getElementById('herr');
+          if(!g){err.style.color='red';err.textContent='Guest name required.';return;}
+          if(!ph){err.style.color='red';err.textContent='Contact number required.';return;}
+          if(!rm){err.style.color='red';err.textContent='Select a room type.';return;}
+          if(svcs.length===0){err.style.color='red';err.textContent='Select at least one service.';return;}
+          if(!terms.checked){err.style.color='red';err.textContent='Accept T&C to proceed.';return;}
+          err.style.color='green';err.textContent='✓ Booking confirmed!';
+        ">Book Now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TASK 38 -->
+  <div class="tbox" data-cat="js" id="task38">
+    <div class="tboxhead">
+      <span class="tnum">Task 38</span>
+    </div>
+    <h3 class="ttitle">focus() — Sequential Field Focusing on Submit</h3>
+    <div class="demo">
+      <div style="max-width:300px">
+        <p style="font-size:0.85rem;color:#666;margin-bottom:0.75rem">Click Submit with empty fields — it will focus the first invalid one.</p>
+        <input type="text" id="fu" placeholder="Username" class="inp"/>
+        <input type="email" id="fe" placeholder="Email" class="inp"/>
+        <input type="password" id="fp" placeholder="Password" class="inp"/>
+        <div id="fmsg" style="font-size:0.8rem;min-height:20px;color:red"></div>
+        <button class="dbtn" onclick="
+          var u=document.getElementById('fu'),
+              e=document.getElementById('fe'),
+              p=document.getElementById('fp'),
+              msg=document.getElementById('fmsg');
+          if(!u.value){msg.textContent='Focusing username...';u.focus();return;}
+          if(!e.value){msg.textContent='Focusing email...';e.focus();return;}
+          if(!p.value){msg.textContent='Focusing password...';p.focus();return;}
+          msg.style.color='green';msg.textContent='✓ All fields filled!';
+        ">Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TASK 39 -->
+  <div class="tbox" data-cat="js" id="task39">
+    <div class="tboxhead">
+      <span class="tnum">Task 39</span>
+    </div>
+    <h3 class="ttitle">Auto-Focus Password — input Event Listener</h3>
+    <div class="demo">
+      <div style="max-width:300px">
+        <p style="font-size:0.85rem;color:#666;margin-bottom:0.75rem">Type in the username field then press Enter — password field auto-focuses.</p>
+        <input type="text" id="au" placeholder="Username" class="inp" onkeydown="if(event.key==='Enter'&&this.value){document.getElementById('apw').focus();}"/>
+        <input type="password" id="apw" placeholder="Password (auto-focused)" class="inp"/>
+        <button class="dbtn">Login</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TASK 40 -->
+  <div class="tbox" data-cat="js" id="task40">
+    <div class="tboxhead">
+      <span class="tnum">Task 40</span>
+    </div>
+    <h3 class="ttitle">Mouseover Tooltip — Product Image Hover</h3>
+    <div class="demo">
+      <div style="position:relative;display:inline-block">
+        <div id="laptop" style="width:120px;height:120px;background:#f5f5f5;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:3rem;cursor:pointer;border:2px solid #eee"
+          onmouseover="document.getElementById('tip').style.display='block'"
+          onmouseout="document.getElementById('tip').style.display='none'">
+          💻
+        </div>
+        <div id="tip" style="display:none;position:absolute;left:130px;top:0;background:#111;color:#fff;padding:0.75rem 1rem;border-radius:8px;font-size:0.8rem;width:160px;z-index:100">
+          <b>Pro Laptop X1</b><br/>
+          Price: ₹55,000<br/>
+          16GB RAM | 512GB SSD<br/>
+          <span style="color:#86efac">In Stock ✓</span>
+        </div>
+      </div>
+      <p style="font-size:0.8rem;color:#666;margin-top:0.75rem">← Hover over the laptop</p>
+    </div>
+  </div>
+
+  <!-- TASK 41 -->
+  <div class="tbox" data-cat="js" id="task41">
+    <div class="tboxhead">
+      <span class="tnum">Task 41</span>
+    </div>
+    <h3 class="ttitle">Live Form Validation — Real-Time Email & Password Check</h3>
+    <div class="demo">
+      <div style="max-width:320px">
+        <label class="lbl">Email</label>
+        <input type="email" id="lemail" placeholder="Enter email" class="inp" oninput="
+          var v=this.value,icon=document.getElementById('echeck');
+          if(/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)){this.style.borderColor='green';icon.textContent='✓';icon.style.color='green';}
+          else{this.style.borderColor='red';icon.textContent='✗';icon.style.color='red';}
+        "/>
+        <span id="echeck" style="font-weight:700;font-size:1.1rem"></span>
+        <label class="lbl" style="margin-top:0.75rem">Password</label>
+        <input type="password" id="lpw" placeholder="Min 8 chars, use numbers" class="inp" oninput="
+          var v=this.value,fb=document.getElementById('pwfb');
+          if(v.length===0){fb.textContent='';this.style.borderColor='#ccc';}
+          else if(v.length<8){fb.textContent='Too short';fb.style.color='red';this.style.borderColor='red';}
+          else if(!/\d/.test(v)){fb.textContent='Add numbers';fb.style.color='orange';this.style.borderColor='orange';}
+          else{fb.textContent='Strong ✓';fb.style.color='green';this.style.borderColor='green';}
+        "/>
+        <div id="pwfb" style="font-size:0.8rem;min-height:20px;font-weight:600"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== ADVANCED ===== -->
+  <div class="sectitle" id="advanced">Z-Index & Layers — Tasks 42–45</div>
+
+  <!-- TASK 42a -->
+  <div class="tbox" data-cat="advanced" id="task42a">
+    <div class="tboxhead">
+      <span class="tnum">Task 42a</span>
+    </div>
+    <h3 class="ttitle">Multiple Cards — Dynamic Z-Index (Login, Signup, Confirmation)</h3>
+    <div class="demo">
+      <div style="position:relative;height:180px">
+        <div id="c1" class="fcard" style="left:0;top:0;z-index:1000;background:#fff;border-color:#ccc" onclick="bringFront('c1',['c2','c3'])">
+          <b>Login Card</b><br/><small>Click to bring to front</small>
+        </div>
+        <div id="c2" class="fcard" style="left:60px;top:30px;z-index:999;background:#f9f9f9;border-color:#bbb" onclick="bringFront('c2',['c1','c3'])">
+          <b>Signup Card</b><br/><small>Click to bring to front</small>
+        </div>
+        <div id="c3" class="fcard" style="left:120px;top:60px;z-index:998;background:#f0f0f0;border-color:#aaa" onclick="bringFront('c3',['c1','c2'])">
+          <b>Confirm Card</b><br/><small>Click to bring to front</small>
+        </div>
+      </div>
+      <script>
+        function bringFront(id, others) {
+          document.getElementById(id).style.zIndex = 1010;
+          others.forEach(function(o, i) { document.getElementById(o).style.zIndex = 998 - i; });
+        }
+      </script>
+    </div>
+  </div>
+
+  <!-- TASK 42b -->
+  <div class="tbox" data-cat="advanced" id="task42b">
+    <div class="tboxhead">
+      <span class="tnum">Task 42b</span>
+    </div>
+    <h3 class="ttitle">Product Card — Hover Tooltip with Z-Index</h3>
+    <div class="demo">
+      <div style="display:flex;gap:1rem;flex-wrap:wrap">
+        <div class="pcard" onmouseenter="this.querySelector('.tt').style.cssText='display:block;position:absolute;top:-80px;left:0;background:#111;color:#fff;padding:0.5rem 0.75rem;border-radius:6px;font-size:0.75rem;z-index:999;width:150px;'" onmouseleave="this.querySelector('.tt').style.display='none'">
+          <div class="tt" style="display:none">💻 Pro Laptop X1<br/>16GB RAM | 512GB SSD</div>
+          💻 Laptop — ₹55,000
+        </div>
+        <div class="pcard" onmouseenter="this.querySelector('.tt').style.cssText='display:block;position:absolute;top:-80px;left:0;background:#111;color:#fff;padding:0.5rem 0.75rem;border-radius:6px;font-size:0.75rem;z-index:999;width:150px;'" onmouseleave="this.querySelector('.tt').style.display='none'">
+          <div class="tt" style="display:none">📱 Flagship Phone<br/>8GB RAM, 128GB</div>
+          📱 Phone — ₹25,000
+        </div>
+      </div>
+      <p style="font-size:0.8rem;color:#666;margin-top:0.75rem">← Hover each card for tooltip</p>
+    </div>
+  </div>
+
+  <!-- TASK 43 -->
+  <div class="tbox" data-cat="advanced" id="task43">
+    <div class="tboxhead">
+      <span class="tnum">Task 43</span>
+    </div>
+    <h3 class="ttitle">Image Caption — Absolute Position, Z-Index</h3>
+    <div class="demo">
+      <div style="position:relative;width:280px;height:160px;border-radius:12px;overflow:hidden;background:linear-gradient(135deg,#1a1a2e,#16213e)">
+        <div style="position:relative;z-index:1;width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:4rem">🌄</div>
+        <div style="position:absolute;bottom:0;left:0;right:0;z-index:2;background:rgba(0,0,0,0.6);color:#fff;padding:0.5rem 0.75rem;font-size:0.85rem">
+          <b>Mountain Sunrise</b> — Caption overlaid with z-index: 2
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TASK 45 -->
+  <div class="tbox" data-cat="advanced" id="task45">
+    <div class="tboxhead">
+      <span class="tnum">Task 45</span>
+    </div>
+    <h3 class="ttitle">Gallery Z-Index — Click to Bring Image to Front</h3>
+    <div class="demo">
+      <div style="position:relative;height:180px;width:280px">
+        <div class="gimg" id="gi1" style="left:0;top:0;z-index:1;background:linear-gradient(135deg,#e8f4f8,#b3d9f2)" onclick="bringGFront('gi1',['gi2','gi3'])">🖼 Image 1</div>
+        <div class="gimg" id="gi2" style="left:60px;top:30px;z-index:2;background:linear-gradient(135deg,#f8f0e8,#f2c99e)" onclick="bringGFront('gi2',['gi1','gi3'])">🖼 Image 2</div>
+        <div class="gimg" id="gi3" style="left:120px;top:60px;z-index:3;background:linear-gradient(135deg,#e8f8ec,#9ef2b3)" onclick="bringGFront('gi3',['gi1','gi2'])">🖼 Image 3</div>
+      </div>
+      <script>
+        function bringGFront(clicked, others) {
+          document.getElementById(clicked).style.zIndex = 10;
+          others.forEach(function(o, i) { document.getElementById(o).style.zIndex = i + 1; });
+        }
+      </script>
+    </div>
+  </div>
+
+</div><!-- end .tasks -->
+
+<footer class="bg-dark text-white py-3">
+  <div class="container d-flex flex-wrap justify-content-between align-items-center">
+    <span class="fw-bold">Aadya</span>
+    <span class="text-secondary small">Web Programming Portfolio — 50 Tasks</span>
+    <div>
+      <a href="index.html" class="text-secondary text-decoration-none me-3 small">Home</a>
+      <a href="tasks.html" class="text-secondary text-decoration-none me-3 small">Tasks</a>
+      <a href="contact.html" class="text-secondary text-decoration-none small">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="tasks.js"></script>
+</body>
+</html>

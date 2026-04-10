@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Aadya's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="nav">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Aadya</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navlinks">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navlinks">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="tasks.html">Tasks</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="pagetop">
+  <div class="container">
+    <h1 class="display-5 fw-bold">Contact Me</h1>
+    <p class="lead mt-2">Questions about my portfolio? Feel free to reach out!</p>
+  </div>
+</div>
+
+<section class="py-5">
+  <div class="container">
+    <div class="row g-5 align-items-start">
+
+      <!-- INFO -->
+      <div class="col-lg-5">
+        <h5 class="fw-bold mb-4">Contact Info</h5>
+
+        <div class="crow">
+          <div class="cicon">📍</div>
+          <div>
+            <div class="clabel">Location</div>
+            <div class="cval">Chennai, Tamil Nadu, India</div>
+          </div>
+        </div>
+
+        <div class="crow">
+          <div class="cicon">📧</div>
+          <div>
+            <div class="clabel">Email</div>
+            <div class="cval">aadya@email.com</div>
+          </div>
+        </div>
+
+        <div class="crow">
+          <div class="cicon">💼</div>
+          <div>
+            <div class="clabel">Course</div>
+            <div class="cval">Web Programming — 50 Tasks</div>
+          </div>
+        </div>
+
+        
+      </div>
+
+      <!-- FORM -->
+      <div class="col-lg-7">
+        <div class="msgbox">
+          <h5 class="fw-bold mb-4">Send a Message</h5>
+
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="lbl">Full Name *</label>
+              <input type="text" id="name" placeholder="Your name" class="inp"/>
+            </div>
+            <div class="col-md-6">
+              <label class="lbl">Email *</label>
+              <input type="email" id="email" placeholder="your@email.com" class="inp"/>
+            </div>
+          </div>
+
+          <label class="lbl mt-2">Phone Number</label>
+          <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX" class="inp"/>
+
+          <label class="lbl">Subject *</label>
+          <select id="subject" class="inp">
+            <option value="">Select a subject</option>
+            <option>About the Portfolio</option>
+            <option>Collaboration</option>
+            <option>Feedback</option>
+            <option>Other</option>
+          </select>
+
+          <label class="lbl">Message *</label>
+          <textarea id="msg" placeholder="Write your message here..." class="inp" rows="5"></textarea>
+
+          <label class="lbl">Attachment</label>
+          <input type="file" class="inp"/>
+
+          <div id="err" style="min-height: 24px; font-size: 0.85rem; font-weight: 600; margin-bottom: 10px;"></div>
+
+          <button class="btn btn-dark w-100" onclick="
+            var n = document.getElementById('name').value;
+            var e = document.getElementById('email').value;
+            var s = document.getElementById('subject').value;
+            var m = document.getElementById('msg').value;
+            var err = document.getElementById('err');
+            if (!n) { err.style.color = 'red'; err.textContent = 'Please enter your name.'; return; }
+            if (!e || !e.includes('@')) { err.style.color = 'red'; err.textContent = 'Please enter a valid email.'; return; }
+            if (!s) { err.style.color = 'red'; err.textContent = 'Please select a subject.'; return; }
+            if (!m) { err.style.color = 'red'; err.textContent = 'Please write a message.'; return; }
+            err.style.color = 'green';
+            err.textContent = 'Message sent successfully!';
+            document.getElementById('name').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('subject').value = '';
+            document.getElementById('msg').value = '';
+          ">Send Message</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-white py-3">
+  <div class="container d-flex flex-wrap justify-content-between align-items-center">
+    <span class="fw-bold">Aadya</span>
+    <span class="text-secondary small">Web Programming Portfolio — 50 Tasks</span>
+    <div>
+      <a href="index.html" class="text-secondary text-decoration-none me-3 small">Home</a>
+      <a href="tasks.html" class="text-secondary text-decoration-none me-3 small">Tasks</a>
+      <a href="contact.html" class="text-secondary text-decoration-none small">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
