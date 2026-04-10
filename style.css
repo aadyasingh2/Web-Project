@@ -4,6 +4,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
 .hero {
   background-color: #1a1a2e;
   padding: 100px 0 60px;
